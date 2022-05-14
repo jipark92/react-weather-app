@@ -80,8 +80,8 @@
 }
 
 .today-container img{
-  height: 60px;
-  width: 60px;
+  height: 55px;
+  width: 55px;
 }
 
 .today-container h1{
@@ -90,9 +90,12 @@
 
 .section-1{
   display:flex;
+  flex-wrap: wrap;
   gap: 2rem;
   margin: 3rem;
-  flex-wrap: wrap;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding:1rem;
 }
 
 .section-1 div{
@@ -103,9 +106,12 @@
 
 .section-2{
   display:flex;
-  gap: 2rem;
-  margin: 3rem;
   flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2rem;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 1rem;
 }
 
 .section-2 div{
@@ -116,9 +122,12 @@
 
 .section-3{
   display:flex;
-  gap: 2rem;
-  margin: 3rem;
   flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2rem;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 1rem;
 }
 
 .section-3 div{

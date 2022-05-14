@@ -49,7 +49,7 @@ export default function Home() {
                             <Button variant="light"><img src="https://cdn-icons-png.flaticon.com/512/751/751463.png" onClick={submitLocation}/></Button>
                         </div>
                         <div>
-                            <p>city / city,state / city,country</p>
+                            <p>format: city / city,state / city,country</p>
                         </div>
                     </div>
             </div>
