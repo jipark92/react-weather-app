@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
 .nav{
@@ -80,8 +83,8 @@
 }
 
 .today-container img{
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
 }
 
 .today-container h1{
@@ -134,7 +137,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 325px;
+  width: 400px;
 }
 
 .about-container{

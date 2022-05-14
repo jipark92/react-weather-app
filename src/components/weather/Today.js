@@ -12,7 +12,7 @@ export default function Today(props) {
     return (
         <div className="today-container">
             <Button 
-                variant="outline-light" 
+                variant="outline-info" 
                 size="lg" 
                 onClick={handleToggle}
                 >
