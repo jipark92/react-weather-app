@@ -11,8 +11,8 @@ export default function Header() {
                     <Nav className="nav me-auto">
                     </Nav>
                     <Nav className='nav'>
-                        <Link to="/features" className='text-light'>About</Link>
-                        <Link to="/pricing" className='text-light'>Contact</Link>
+                        <Link to="/contact" className='text-light'>Contact</Link>
+                        <Link to="/about" className='text-light'>About</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
