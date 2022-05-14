@@ -19,4 +19,15 @@
 .home-container{
   height:100vh;
   border:1px solid green;
+  display: flex;
+}
+
+.today-container{
+  border: 1px solid black;
+  width: 50%;
+}
+
+.forecast-container{
+  border: 1px solid black;
+  width: 50%;
 }
