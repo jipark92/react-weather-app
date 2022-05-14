@@ -12,7 +12,7 @@ export default function About() {
                 <Badge bg="light" text="dark">BOOTSTRAP</Badge>
             </div>
             <h2 className='text-light'>API used:</h2>
-            <Badge bg="secondary">OPEN WEATHER MAP</Badge>
+                <Badge bg="secondary">OPEN WEATHER MAP</Badge>
         </div>
     )
 }
