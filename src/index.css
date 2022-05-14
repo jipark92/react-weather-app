@@ -46,16 +46,18 @@
 
 .search-btn-container{
   display:flex;
+  width: 50%;
   justify-content: center;
   flex-direction: column;
 }
+
 .search-btn-container div{
   display: flex;
   justify-content: center;
 }
 
 .search-btn-container input{
-  width: 75%;
+  width: 100%;
 }
 
 .search-btn-container button{
@@ -68,7 +70,6 @@
 }
 
 .today-container{
-  /* border: 1px solid black; */
   height: 75%;
   display: flex;
   justify-content: center;
@@ -86,12 +87,10 @@
   display:flex;
   gap: 2rem;
   margin: 3rem;
-  /* border: 1px solid white; */
   flex-wrap: wrap;
 }
 
 .section-1 div{
-  /* border: 1px solid white; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,7 +105,6 @@
 }
 
 .section-2 div{
-  /* border: 1px solid white; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,13 +119,8 @@
 }
 
 .section-3 div{
-  /* border: 1px solid white; */
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 300px;
-}
-
-@media (max-width: 400px){
-
 }

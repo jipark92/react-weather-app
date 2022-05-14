@@ -10,7 +10,7 @@ export default function Home() {
 
 
     // useEffect(()=>{
-    //     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=88cfbde6ec14cc6b1ea870b1a0aaa9b5`)
+    //     fetch(`https://api.openweathermap.org/data/2.5/weather?q=Virginia&appid=88cfbde6ec14cc6b1ea870b1a0aaa9b5`)
     //     .then(res=>res.json())
     //     .then(res=>{
     //         console.log(res)
@@ -63,7 +63,7 @@ export default function Home() {
         <div className='home-container bg-dark text-light'>
             <div className="search-container">
                 <h1>Better Weather</h1>
-                <img src="https://cdn-icons.flaticon.com/png/512/3506/premium/3506113.png?token=exp=1652493097~hmac=c2dad528a604b6b04c6b5062e9fdea06"/>
+                {/* <img src="https://cdn-icons.flaticon.com/png/512/3506/premium/3506113.png?token=exp=1652493097~hmac=c2dad528a604b6b04c6b5062e9fdea06"/> */}
                     <div className='search-btn-container'>
                         <div>
                             <Form.Control size="lg" type="text" placeholder="Type a city here" onChange={changeLocation}/>
