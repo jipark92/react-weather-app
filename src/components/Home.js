@@ -4,28 +4,25 @@ import { Form, Button } from 'react-bootstrap';
 
 export default function Home() {
 
-    const [smShow, setSmShow] = useState(false);
-
     const [showToday, setShowToday] = useState([{}])
     const [location, setLocation] = useState()
 
     const changeLocation = (e) =>{
         setLocation(e.target.value)
-        console.log(location)
     }
 
     const submitLocation = () => {
         if(location === undefined || location === "" || location === null){
             alert('Invalid Location')
+        } else {
+            weatherData(location)
         }
-        weatherData(location)
     }
 
     const weatherData = (location) => {
         fetch(`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=88cfbde6ec14cc6b1ea870b1a0aaa9b5`)
         .then(res=>res.json())
         .then(res=>{
-            console.log(res)
             setShowToday([{
                 feels: res.main.feels_like,
                 humidity: res.main.humidity,
@@ -38,7 +35,6 @@ export default function Home() {
                 wind: res.wind.speed,
                 place: location
             }])
-            console.log(showToday)
         })
     }
 
