@@ -41,16 +41,16 @@ export default function Home() {
     return (
         <div className='home-container bg-dark text-light'>
             <div className="search-container">
-                <h1>Better Weather</h1>
-                {/* <img src="https://cdn-icons.flaticon.com/png/512/3506/premium/3506113.png?token=exp=1652493097~hmac=c2dad528a604b6b04c6b5062e9fdea06"/> */}
+                <h1 style={{color:'yellow'}}>Better Weather</h1>
                     <div className='search-btn-container'>
                         <div>
                             <Form.Control size="lg" type="text" placeholder="Type a city here" onChange={changeLocation}/>
-                            <Button variant="light"><img src="https://cdn-icons-png.flaticon.com/512/751/751463.png" onClick={submitLocation}/></Button>
+                            <Button variant="light"><img src="https://cdn-icons-png.flaticon.com/512/751/751463.png" alt="icon"onClick={submitLocation}/></Button>
                         </div>
                         <div>
-                            <p>format: city / city,state / city,country</p>
+                            <p>Format: city / city,state / city,country</p>
                         </div>
+                        <h3 className='mb-auto'>{Date()}</h3>
                     </div>
             </div>
             
