@@ -9,9 +9,9 @@ export default function Today(props) {
             <p>Temp: {props.weatherInfo[0].temp}</p>
             <p>Temp Max: {props.weatherInfo[0].tempMax}</p>
             <p>Temp Min: {props.weatherInfo[0].tempMin}</p>
-            <p>{props.weatherInfo[0].country}</p>
-            <p>{props.weatherInfo[0].weather}</p>
-            <p>{props.weatherInfo[0].wind}</p>
+            <p>Country: {props.weatherInfo[0].country}</p>
+            <p>Cloud: {props.weatherInfo[0].cloud}</p>
+            <p>Wind: {props.weatherInfo[0].wind}</p>
 
         </div>
     )

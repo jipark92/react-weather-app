@@ -18,7 +18,7 @@ export default function Home() {
                 tempMax: res.main.temp_max,
                 tempMin: res.main.temp_min,
                 country: res.sys.country,
-                weather: res.weather[0].description,
+                cloud: res.weather[0].description,
                 wind: res.wind.speed
             }])
             console.log(showToday)
